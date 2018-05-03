@@ -1,0 +1,28 @@
+{
+    "devDependencies": {
+        "cz-customizable": "^5.2.0",
+        "cz-lerna-changelog": "^1.2.1",
+        "lerna": "^2.6.0"
+    },
+    "private": true,
+    "name": "semantic-versioning",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "publishConfig": {
+        "registry": "https://npmrepo.vaultdev.com/repository/npm-ui-platform/"
+    },
+    "workspaces": [
+        "packages/*"
+    ],
+    "config": {
+        "commitizen": {
+            "path": "./node_modules/cz-customizable"
+        },
+        "cz-customizable": {
+            "config": "cz-customizable-config.js"
+        }
+    }
+}
