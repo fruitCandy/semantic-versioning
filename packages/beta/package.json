@@ -1,6 +1,6 @@
 {
-  "name": "beta",
-  "version": "1.0.0",
+  "name": "demo-beta",
+  "version": "0.1.1",
   "description": "",
   "main": "index.js",
   "scripts": {
