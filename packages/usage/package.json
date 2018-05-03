@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "demo-alpha": "^6.0.0",
-    "demo-beta": "^6.0.0"
+    "demo-alpha": "^7.0.0",
+    "demo-beta": "^7.0.0"
   }
 }
