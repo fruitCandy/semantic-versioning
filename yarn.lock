@@ -763,10 +763,6 @@ delegates@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/delegates/-/delegates-1.0.0.tgz#84c6e159b81904fdca59a0ef44cd870d31250f9a"
 
-demo-alpha@^0.1.2:
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/demo-alpha/-/demo-alpha-0.1.2.tgz#b7c0464070237a790e6bae2146c190fcaad8b399"
-
 detect-indent@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/detect-indent/-/detect-indent-5.0.0.tgz#3871cc0a6a002e8c3e5b3cf7f336264675f06b9d"
