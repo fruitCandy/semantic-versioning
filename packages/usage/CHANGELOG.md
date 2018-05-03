@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="7.1.0"></a>
+# [7.1.0](https://github.com/fruitCandy/semantic-versioning/compare/demo-usage@7.0.0...demo-usage@7.1.0) (2018-05-03)
+
+
+### Features
+
+* **test:** test ([3674767](https://github.com/fruitCandy/semantic-versioning/commit/3674767))
+
+
+
+
 <a name="6.0.0"></a>
 # [6.0.0](https://github.com/fruitCandy/semantic-versioning/compare/demo-usage@0.1.2...demo-usage@6.0.0) (2018-05-03)
 
