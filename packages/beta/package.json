@@ -1,6 +1,6 @@
 {
   "name": "demo-beta",
-  "version": "8.0.0",
+  "version": "8.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "demo-alpha": "^7.0.0"
+    "demo-alpha": "^7.2.0"
   }
 }

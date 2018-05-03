@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="8.1.0"></a>
+# [8.1.0](https://github.com/fruitCandy/semantic-versioning/compare/demo-beta@8.0.0...demo-beta@8.1.0) (2018-05-03)
+
+
+### Features
+
+* **feature:** feature ([11d1d3d](https://github.com/fruitCandy/semantic-versioning/commit/11d1d3d))
+
+
+
+
 <a name="8.0.0"></a>
 # [8.0.0](https://github.com/fruitCandy/semantic-versioning/compare/demo-beta@7.0.0...demo-beta@8.0.0) (2018-05-03)
 
