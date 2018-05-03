@@ -9,7 +9,8 @@
     "version": "1.0.0",
     "main": "index.js",
     "scripts": {
-        "test": "scripts/test"
+        "test": "scripts/test",
+        "semantic-release": "lerna-semantic-release pre && lerna-semantic-release post && lerna-semantic-release perform"
     },
     "publishConfig": {
         "registry": "https://npmrepo.vaultdev.com/repository/npm-ui-platform/"
