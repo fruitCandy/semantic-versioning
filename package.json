@@ -2,6 +2,7 @@
     "devDependencies": {
         "cz-customizable": "^5.2.0",
         "cz-lerna-changelog": "^1.2.1",
+        "lerna-semantic-release": "^9.0.1",
         "lerna": "^2.6.0"
     },
     "private": true,
