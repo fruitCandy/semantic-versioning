@@ -9,7 +9,7 @@ npm config set //registry.npmjs.org/:_authToken=$NPM_TOKEN -q
 npm prune
 
 git config --global user.email "pinkbear715@gmail.com"
-git config --global user.name "fruitCandy"
+git config --global user.name "Travis CI"
 git config --global push.default simple
 
 git fetch --tags
