@@ -9,8 +9,8 @@ deploy:
 before_install: .travis/before_install.sh
 script:
   - npm test
-after_success:
-  - npm run semantic-release
+# after_success:
+#   - npm run semantic-release
 
 
 
