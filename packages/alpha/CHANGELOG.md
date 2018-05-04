@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="12.1.0"></a>
+# [12.1.0](https://github.com/fruitCandy/semantic-versioning/compare/demo-alpha@12.0.0...demo-alpha@12.1.0) (2018-05-04)
+
+
+### Features
+
+* **component:** adding drag and drop ([15b61b1](https://github.com/fruitCandy/semantic-versioning/commit/15b61b1))
+* **test:** qwe ([c05c6ca](https://github.com/fruitCandy/semantic-versioning/commit/c05c6ca))
+
+
+
+
 <a name="12.0.0"></a>
 # [12.0.0](https://github.com/fruitCandy/semantic-versioning/compare/demo-alpha@11.2.1...demo-alpha@12.0.0) (2018-05-04)
 
