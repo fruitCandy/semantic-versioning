@@ -16,7 +16,6 @@
     "version": "1.0.0",
     "main": "index.js",
     "scripts": {
-        "commit": "commit",
         "commitmsg": "commitlint -e $GIT_PARAMS",
         "test": "scripts/test",
         "semantic-release": "lerna publish -skip-npm --conventional-commits --yes && lerna-semantic-release post && lerna-semantic-release perform"
