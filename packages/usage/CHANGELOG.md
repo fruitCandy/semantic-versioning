@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="10.0.2"></a>
+## [10.0.2](https://github.com/fruitCandy/semantic-versioning/compare/demo-usage@10.0.1...demo-usage@10.0.2) (2018-05-04)
+
+
+### Bug Fixes
+
+* **patch:** patch ([974bf08](https://github.com/fruitCandy/semantic-versioning/commit/974bf08))
+
+
+
+
 <a name="9.0.1"></a>
 ## [9.0.1](https://github.com/fruitCandy/semantic-versioning/compare/demo-usage@7.1.3...demo-usage@9.0.1) (2018-05-04)
 
