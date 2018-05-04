@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="11.1.0"></a>
+# [11.1.0](https://github.com/fruitCandy/semantic-versioning/compare/demo-alpha@11.0.4...demo-alpha@11.1.0) (2018-05-04)
+
+
+### Features
+
+* **patch2:** patch ([bddcce9](https://github.com/fruitCandy/semantic-versioning/commit/bddcce9))
+
+
+
+
 <a name="11.0.4"></a>
 ## [11.0.4](https://github.com/fruitCandy/semantic-versioning/compare/demo-alpha@11.0.2...demo-alpha@11.0.4) (2018-05-04)
 
