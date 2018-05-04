@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="11.2.0"></a>
+# [11.2.0](https://github.com/fruitCandy/semantic-versioning/compare/demo-alpha@11.1.0...demo-alpha@11.2.0) (2018-05-04)
+
+
+### Features
+
+* **minor:** minor ([fe14dee](https://github.com/fruitCandy/semantic-versioning/commit/fe14dee))
+
+
+
+
 <a name="11.1.0"></a>
 # [11.1.0](https://github.com/fruitCandy/semantic-versioning/compare/demo-alpha@11.0.4...demo-alpha@11.1.0) (2018-05-04)
 
