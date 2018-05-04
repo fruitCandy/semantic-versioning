@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="12.0.0"></a>
+# [12.0.0](https://github.com/fruitCandy/semantic-versioning/compare/demo-alpha@11.2.1...demo-alpha@12.0.0) (2018-05-04)
+
+
+### Features
+
+* **breaking:** breaking ([8a1587a](https://github.com/fruitCandy/semantic-versioning/commit/8a1587a))
+
+
+### BREAKING CHANGES
+
+* **breaking:** breaking
+
+ISSUES CLOSED: breaking
+
+
+
+
 <a name="11.2.1"></a>
 ## [11.2.1](https://github.com/fruitCandy/semantic-versioning/compare/demo-alpha@11.2.0...demo-alpha@11.2.1) (2018-05-04)
 
