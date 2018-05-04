@@ -11,7 +11,7 @@
     "main": "index.js",
     "scripts": {
         "test": "scripts/test",
-        "semantic-release": "lerna-semantic-release pre && lerna-semantic-release post && lerna-semantic-release perform"
+        "semantic-release": "lerna publish -skip-npm --conventional-commits && lerna-semantic-release post && lerna-semantic-release perform"
     },
     "workspaces": [
         "packages/*"
