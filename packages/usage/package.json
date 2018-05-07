@@ -1,6 +1,6 @@
 {
   "name": "demo-usage",
-  "version": null,
+  "version": "12.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
