@@ -6,11 +6,11 @@ deploy:
   email: "pinkbear715@gmail.com"
   api_key: ${NPM_AUTH_TOKEN}
 
-before_install: .travis/before_install.sh
-script:
-  - npm test
+#before_install: .travis/before_install.sh
+#script:
+#  - npm test
 # after_success:
-  - npm run semantic-release
+#  - npm run semantic-release
 
 
 
