@@ -5,11 +5,12 @@
         "@commitlint/config-lerna-scopes": "^6.1.3",
         "@commitlint/prompt-cli": "^6.1.3",
         "@commitlint/travis-cli": "^6.2.0",
+        "alpha-cz": "^0.1.0",
         "commitizen": "^2.9.6",
+        "cz-customizable": "^5.2.0",
         "husky": "^0.14.3",
-        "lerna": "^2.6.0",
-        "lerna-semantic-release": "^9.0.1",
-        "alpha-cz": "^0.1.0"
+        "lerna": "^3.0.0-beta.15",
+        "lerna-semantic-release": "^9.0.1"
     },
     "private": true,
     "name": "semantic-versioning",
@@ -19,7 +20,7 @@
         "test": "scripts/test",
         "commitmsg": "commitlint -e $GIT_PARAMS",
         "semantic-release": "lerna publish --conventional-commits --yes",
-        "lerna": "lerna publish --skip-npm --conventional-commits --changelog-preset angular",
+        "lerna": "lerna publish --skip-npm --conventional-commits --changelog-preset atom",
         "commit": "git cz",
         "bootstrap": "lerna bootstrap"
     },
@@ -28,7 +29,7 @@
     ],
     "config": {
         "commitizen": {
-            "path": "./node_modules/alpha-cz"
+            "path": "./utils/beta-cz"
         }
     }
 }
