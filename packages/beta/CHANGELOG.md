@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="13.0.3"></a>
+## [13.0.3](https://github.com/fruitCandy/semantic-versioning/compare/demo-beta@13.0.2...demo-beta@13.0.3) (2018-05-08)
+
+
+### Bug Fixes
+
+* **patch:** local branch ([665268f](https://github.com/fruitCandy/semantic-versioning/commit/665268f))
+
+
+
+
 <a name="13.0.2"></a>
 ## [13.0.2](https://github.com/fruitCandy/semantic-versioning/compare/demo-beta@13.0.0...demo-beta@13.0.2) (2018-05-07)
 
