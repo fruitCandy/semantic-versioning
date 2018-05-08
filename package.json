@@ -19,7 +19,7 @@
         "test": "scripts/test",
         "commitmsg": "commitlint -e $GIT_PARAMS",
         "semantic-release": "lerna publish --conventional-commits --yes",
-        "lerna": "lerna publish --skip-npm --conventional-commits --changelog-preset eslint",
+        "lerna": "lerna publish --skip-npm --conventional-commits --changelog-preset angular",
         "commit": "git cz",
         "bootstrap": "lerna bootstrap"
     },
