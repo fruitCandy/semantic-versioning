@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="12.0.4"></a>
+## [12.0.4](https://github.com/fruitCandy/semantic-versioning/compare/demo-usage@12.0.3...demo-usage@12.0.4) (2018-05-08)
+
+
+
+
+**Note:** Version bump only for package demo-usage
+
 <a name="12.0.3"></a>
 ## [12.0.3](https://github.com/fruitCandy/semantic-versioning/compare/demo-usage@12.0.2...demo-usage@12.0.3) (2018-05-08)
 
