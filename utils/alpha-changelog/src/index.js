@@ -42,10 +42,10 @@ function makeAffectsLine (answers) {
 }
 
 function getCommitTypeMessage (type) {
-    console.log(chalk.green(type));
   if (!type) {
     return 'This commit does not indicate any release'
   }
+
   return {
     patch: '🛠  This commit indicates a patch release (0.0.X)',
     minor: '✨  This commit indicates a minor release (0.X.0)',
@@ -67,12 +67,11 @@ function makePrompter(makeCustomQuestions = () => []) {
   return function(cz, commit) {
     const allPackages = getAllPackages().map((pkg) => pkg.name);
     const changedPackages = getChangedPackages();
-
     const defaultQuestions = makeDefaultQuestions(allPackages, changedPackages);
     const customQuestions = makeCustomQuestions(allPackages, changedPackages);
     const questions = mergeQuestions(defaultQuestions, customQuestions);
 
-    console.log(chalk.green('\n\nGenerates a commit message in the format of type(scope): message\n'));
+    console.log(`\nA commit message should be in the format of ${chalk.green('type(scope): message')}\n`);
 
     cz.registerPrompt('autocomplete', autocomplete);
     cz.prompt(
@@ -83,9 +82,8 @@ function makePrompter(makeCustomQuestions = () => []) {
             answers.body = `${affectsLine}\n` + answers.body;
         }
         const message = buildCommit(answers);
-        commitAnalyzer(
-            releaseConfig,
-            {
+        commitAnalyzer(releaseConfig,
+           {
                 commits: [
                     {
                     hash: '',
@@ -93,14 +91,13 @@ function makePrompter(makeCustomQuestions = () => []) {
                     }
                 ],
                 logger: console,
-            },
-            (err, type) => {
-                console.log(chalk.green(`\n${getCommitTypeMessage(type)}\n`));
-                console.log('\n\nCommit message:');
-                console.log(chalk.blue(`\n\n${message}\n`));
-                commit(message)
             }
-        );
+        ).then((type) => {
+            console.log(chalk.green(`\n${getCommitTypeMessage(type)}\n`));
+            console.log('Commit message:');
+            console.log(chalk.blue(`${message}\n`));
+            commit(message)
+        });
     });
   }
 }

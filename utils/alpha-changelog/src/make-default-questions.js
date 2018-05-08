@@ -4,12 +4,12 @@ module.exports = (allPackages, changedPackages) => ([
     {
         type: 'autocomplete',
         name: 'type',
-        message: 'Commit type:',
+        message: 'type:',
         choices: [
-            {value: 'fix',      name: 'fix:      🛠  A bug fix (note: this will indicate a release)'},
-            {value: 'feat',     name: 'feat:     ✨  A new feature (note: this will indicate a release)'},
-            {value: 'perf',     name: 'perf:     A code change that improves performance'},
-            {value: 'break',    name: 'break:     Breaking changes'},
+            {value: 'fix',      name: 'fix:      🛠  A bug fix (Patch release)'},
+            {value: 'perf',     name: 'perf:     🛠  A code change that improves performance (Patch release)'},
+            {value: 'feat',     name: 'feat:     ✨  A new feature (Minor release)'},
+            {value: 'break',    name: 'break:    💥  Incompatible API changes (Major release)'},
             {value: 'test',     name: 'test:     Adding missing tests'},
             {value: 'docs',     name: 'docs:     Documentation only changes'},
             {value: 'style',    name: 'style:    Changes that do not affect the meaning of the code\n            (white-space, formatting, missing semi-colons, etc)'},
@@ -22,12 +22,12 @@ module.exports = (allPackages, changedPackages) => ([
     {
         type: 'input',
         name: 'scope',
-        message: 'Commit scope:',
+        message: 'Scope:',
     },
     {
         type: 'input',
         name: 'subject',
-        message: 'Commit message:',
+        message: 'Message:',
         filter: function(value) {
             return value.charAt(0).toLowerCase() + value.slice(1);
         },

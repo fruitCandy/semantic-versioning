@@ -20,7 +20,7 @@
         "test": "scripts/test",
         "semantic-release": "lerna publish -skip-npm --conventional-commits --yes && lerna-semantic-release post && lerna-semantic-release perform",
         "lerna": "lerna publish --skip-npm --conventional-commits",
-        "cz": "git cz",
+        "commit": "git cz",
         "bootstrap": "lerna bootstrap"
     },
     "workspaces": [
@@ -28,7 +28,7 @@
     ],
     "config": {
         "commitizen": {
-            "path": "./node_modules/cz-lerna-changelog"
+            "path": "./utils/alpha-changelog"
         },
         "cz-customizable": {
             "config": "cz-customizable-config.js"
