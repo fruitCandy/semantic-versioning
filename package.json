@@ -1,6 +1,7 @@
 {
     "devDependencies": {
         "@commitlint/cli": "^6.2.0",
+        "@commitlint/config-conventional": "^6.1.3",
         "beta-changelog": "^0.1.1",
         "beta-cz": "^0.1.0",
         "commitizen": "^2.9.6",
