@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="13.0.1"></a>
+## [13.0.1](https://github.com/fruitCandy/semantic-versioning/compare/demo-alpha@13.0.0...demo-alpha@13.0.1) (2018-05-09)
+
+
+### Bug Fixes
+
+* **fix:** fix ([d168fc8](https://github.com/fruitCandy/semantic-versioning/commit/d168fc8))
+
+
+
+
+
 <a name="12.0.0"></a>
 # [12.0.0](https://github.com/fruitCandy/semantic-versioning/compare/demo-alpha@11.2.1...demo-alpha@12.0.0) (2018-05-04)
 
