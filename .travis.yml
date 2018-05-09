@@ -5,14 +5,13 @@ deploy:
   provider: npm
   email: "pinkbear715@gmail.com"
   api_key: ${NPM_AUTH_TOKEN}
-
 branches:
   only:
-  - master
+    - master
 before_install: .travis/before_install.sh
 script:
   - npm test
- after_success:
+after_success:
   - npm run semantic-release
 
 
