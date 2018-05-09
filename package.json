@@ -7,13 +7,11 @@
         "beta-changelog": "^0.1.1",
         "beta-cz": "^0.1.0",
         "commitizen": "^2.9.6",
-        "husky": "^0.14.3",
-        "lerna": "^3.0.0-beta.15"
+        "husky": "^0.14.3"
     },
     "name": "semantic-versioning",
     "version": "1.0.0",
     "main": "index.js",
-    "private": true,
     "scripts": {
         "test": "scripts/test",
         "commitmsg": "commitlint -e $GIT_PARAMS",
