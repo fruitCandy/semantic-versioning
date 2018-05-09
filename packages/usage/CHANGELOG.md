@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="13.0.0"></a>
+# [13.0.0](https://github.com/fruitCandy/semantic-versioning/compare/demo-usage@12.0.6...demo-usage@13.0.0) (2018-05-09)
+
+
+### break
+
+* **break:** nrea ([cf2c082](https://github.com/fruitCandy/semantic-versioning/commit/cf2c082))
+
+
+### BREAKING CHANGES
+
+* **break:** nre
+
+
+
+
+
 <a name="12.0.6"></a>
 ## [12.0.6](https://github.com/fruitCandy/semantic-versioning/compare/demo-usage@12.0.5...demo-usage@12.0.6) (2018-05-09)
 
