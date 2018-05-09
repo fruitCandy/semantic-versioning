@@ -27,7 +27,7 @@
     ],
     "config": {
         "commitizen": {
-            "path": "./utils/beta-cz"
+            "path": "./node_modules/beta-cz"
         }
     }
 }
