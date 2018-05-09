@@ -4,7 +4,8 @@
         "beta-changelog": "^0.1.1",
         "beta-cz": "^0.1.0",
         "commitizen": "^2.9.6",
-        "husky": "^0.14.3"
+        "husky": "^0.14.3",
+        "lerna": "3.0.0-beta.20"
     },
     "name": "semantic-versioning",
     "version": "1.0.0",
