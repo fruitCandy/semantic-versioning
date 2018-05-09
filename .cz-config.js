@@ -21,7 +21,7 @@ module.exports = {
     messages: {
         type: 'Type:',
         customScope: 'Scope:',
-        subject: 'Subject:\n',
+        subject: 'Subject:',
         body: 'Commit body (optional). Use "|" to break new line:\n',
         breaking: 'List any BREAKING CHANGES:\n',
         confirmCommit: 'Are you sure you want to proceed with the commit above?'
