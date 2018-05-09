@@ -6,11 +6,9 @@ deploy:
   email: "pinkbear715@gmail.com"
   api_key: ${NPM_AUTH_TOKEN}
 
-# safelist
 branches:
   only:
   - master
-
 before_install: .travis/before_install.sh
 script:
   - npm test
