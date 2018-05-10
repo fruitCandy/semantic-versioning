@@ -19,6 +19,7 @@ promise.all(promises).then(versions => {
         const oldVersion = pkg.dependencies[keys[index]];
         const oldVersionChunks = oldVersion.slice(1, oldVersion.length).split('.');
         const newVersionChunks = version.split('.');
+        console.log(`Package: ${keys[index]}  current: ${oldVersion}  Latest: ${version}`);
 
         if (!major && oldVersionChunks[0] < newVersionChunks[0]) {
             major = true;
@@ -34,10 +35,15 @@ promise.all(promises).then(versions => {
     const corgixVersionChunks = pkg.version.split('.');
     if (major) {
         pkg.version = `${parseInt(corgixVersionChunks[0], 10) + 1}.0.0`;
+        console.log(`Corgix version: ${pkg.version} Version bumped: Major`);
     } else if (minor) {
         pkg.version = `${corgixVersionChunks[0]}.${parseInt(corgixVersionChunks[1], 10) + 1}.0`;
+        console.log(`Corgix version: ${pkg.version} Version bumped: Minor`);
     } else if (patch) {
         pkg.version = `${corgixVersionChunks[0]}.${corgixVersionChunks[1]}.${parseInt(corgixVersionChunks[2], 10) + 1}`;
+        console.log(`Corgix version: ${pkg.version} Version bumped: Patch`);
+    } else {
+        console.log(`Corgix version unchange`);
     }
 
     fs.writeJsonSync(path.resolve(__dirname, '../../corgix/package.json'), pkg);

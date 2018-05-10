@@ -1,1 +1,18 @@
-{"name":"demo-cgx","version":"13.0.0","description":"","main":"index.js","scripts":{"test":"echo \"Error: no test specified\" && exit 0"},"keywords":[],"author":"","license":"ISC","dependencies":{"demo-alpha":"~14.0.3","demo-beta":"~14.0.3","demo-usage":"~13.0.3"},"verson":"13.0.0"}
+{
+  "name": "demo-cgx",
+  "version": "13.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "demo-alpha": "~14.0.4",
+    "demo-beta": "~14.0.4",
+    "demo-usage": "~13.0.4"
+  },
+  "verson": "13.0.0"
+}
