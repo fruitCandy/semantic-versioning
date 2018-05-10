@@ -14,7 +14,7 @@
     "private": true,
     "scripts": {
         "test": "scripts/test",
-        "semantic-release": "lerna publish --conventional-commits --yes --changelog-preset beta-changelog",
+        "semantic-release": "lerna publish --conventional-commits --yes",
         "bumpTest": "lerna publish --skip-npm --conventional-commits",
         "commit": "git cz",
         "bootstrap": "lerna bootstrap"
