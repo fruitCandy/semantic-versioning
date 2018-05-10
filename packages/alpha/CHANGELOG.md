@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="14.1.0"></a>
+# [14.1.0](https://github.com/fruitCandy/semantic-versioning/compare/demo-alpha@14.0.4...demo-alpha@14.1.0) (2018-05-10)
+
+
+### Features
+
+* **table:** adding drag and drop ([59d2c9f](https://github.com/fruitCandy/semantic-versioning/commit/59d2c9f))
+
+
+
+
 <a name="14.0.4"></a>
 ## [14.0.4](https://github.com/fruitCandy/semantic-versioning/compare/demo-alpha@14.0.3...demo-alpha@14.0.4) (2018-05-10)
 
