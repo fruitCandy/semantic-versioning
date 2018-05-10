@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="14.1.0"></a>
+# [14.1.0](https://github.com/fruitCandy/semantic-versioning/compare/demo-beta@14.0.5...demo-beta@14.1.0) (2018-05-10)
+
+
+### Features
+
+* **beta:** feature beta ([06c5c64](https://github.com/fruitCandy/semantic-versioning/commit/06c5c64))
+
+
+
+
 <a name="14.0.5"></a>
 ## [14.0.5](https://github.com/fruitCandy/semantic-versioning/compare/demo-beta@14.0.4...demo-beta@14.0.5) (2018-05-10)
 
