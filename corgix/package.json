@@ -10,8 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "demo-alpha": "~13.0.x",
-    "demo-beta": "~13.0.x",
-    "demo-usage": "~13.0.x"
+    "demo-alpha": "~14.0.3",
+    "demo-beta": "~14.0.3",
+    "demo-usage": "~13.0.3"
   }
 }
