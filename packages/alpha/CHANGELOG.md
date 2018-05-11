@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="15.0.0"></a>
+# [15.0.0](https://github.com/fruitCandy/semantic-versioning/compare/demo-alpha@14.1.1...demo-alpha@15.0.0) (2018-05-11)
+
+
+### break
+
+* **break:** break ([af3d694](https://github.com/fruitCandy/semantic-versioning/commit/af3d694))
+
+
+### BREAKING CHANGES
+
+* **break:** break
+
+
+
+
 <a name="14.1.1"></a>
 ## [14.1.1](https://github.com/fruitCandy/semantic-versioning/compare/demo-alpha@14.1.0...demo-alpha@14.1.1) (2018-05-10)
 
