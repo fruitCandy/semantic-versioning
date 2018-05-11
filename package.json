@@ -23,6 +23,7 @@
     "main": "index.js",
     "private": true,
     "scripts": {
+        "commitmsg": "commitlint -e $GIT_PARAMS",
         "test": "scripts/test",
         "semantic-release": "lerna publish --conventional-commits --yes",
         "bumpTest": "lerna publish --skip-npm --conventional-commits",
