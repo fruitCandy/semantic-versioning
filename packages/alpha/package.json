@@ -1,6 +1,6 @@
 {
   "name": "demo-alpha",
-  "version": "17.0.0",
+  "version": "17.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,5 +9,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "private": true
+  "private": false
 }
