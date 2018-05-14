@@ -42,7 +42,7 @@ function makeAffectsLine (answers) {
 
 function getCommitTypeMessage (type) {
   if (!type) {
-    return 'This commit does not indicate any release'
+    return '🛠  This commit indicates a patch release (0.0.X)'
   }
   return {
     patch: '🛠  This commit indicates a patch release (0.0.X)',
