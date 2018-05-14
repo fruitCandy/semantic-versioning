@@ -27,7 +27,9 @@
         "commitmsg": "commitlint -e $GIT_PARAMS",
         "test": "scripts/test",
         "semantic-release": "lerna publish --conventional-commits --yes",
-        "lerna-semantic-release": "lerna-semantic-release pre",
+
+        "pre": "lerna-semantic-release pre",
+        "perform": "lerna-semantic-release perform",
         "bumpTest": "lerna publish --skip-npm --skit-git --conventional-commits",
         "commit": "git cz",
         "bootstrap": "lerna bootstrap",
