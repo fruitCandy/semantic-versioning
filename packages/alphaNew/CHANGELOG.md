@@ -19,6 +19,22 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
+<a name="1.0.0"></a>
+# [1.0.0](https://github.com/fruitCandy/semantic-versioning/compare/demo-alpha-2@0.1.1...demo-alpha-2@1.0.0) (2018-05-14)
+
+
+### break
+
+* **break:** break ([c47c932](https://github.com/fruitCandy/semantic-versioning/commit/c47c932))
+
+
+### BREAKING CHANGES
+
+* **break:** break
+
+
+
+
 <a name="0.1.1"></a>
 ## 0.1.1 (2018-05-14)
 
