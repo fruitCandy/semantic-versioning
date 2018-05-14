@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="16.0.2"></a>
+## [16.0.2](https://github.com/fruitCandy/semantic-versioning/compare/demo-alpha@16.0.0...demo-alpha@16.0.2) (2018-05-14)
+
+
+### Bug Fixes
+
+* **fix:** fix ([5c3b5c7](https://github.com/fruitCandy/semantic-versioning/commit/5c3b5c7))
+
+
+
+
 <a name="16.0.1"></a>
 ## [16.0.1](https://github.com/fruitCandy/semantic-versioning/compare/demo-alpha@16.0.0...demo-alpha@16.0.1) (2018-05-14)
 
