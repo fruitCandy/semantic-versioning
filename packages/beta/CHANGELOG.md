@@ -4,7 +4,11 @@ All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
 <a name="15.0.5"></a>
+<<<<<<< 0d27118071c3d01e0900eea5a620949529c4e458
 ## [15.0.5](https://github.com/fruitCandy/semantic-versioning/compare/demo-beta@15.0.2...demo-beta@15.0.5) (2018-05-15)
+=======
+## [15.0.5](https://github.com/fruitCandy/semantic-versioning/compare/demo-beta@15.0.4...demo-beta@15.0.5) (2018-05-15)
+>>>>>>> chore(release): publish
 
 
 
