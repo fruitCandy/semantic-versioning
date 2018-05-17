@@ -26,7 +26,7 @@
     "scripts": {
         "commitmsg": "commitlint -e $GIT_PARAMS",
         "test": "scripts/test",
-        "semantic-release": "lerna publish --conventional-commits --yes",
+        "semantic-release": "lerna-semantic-release pre && lerna-semantic-release perform",
 
         "pre": "lerna-semantic-release pre",
         "perform": "lerna-semantic-release perform",
