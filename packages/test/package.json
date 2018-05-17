@@ -1,0 +1,15 @@
+{
+  "name": "demo-test-again",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "demo-alpha": "^16.0.9"
+  }
+}

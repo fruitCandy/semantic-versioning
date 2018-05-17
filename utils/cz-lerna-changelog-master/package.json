@@ -1,6 +1,6 @@
 {
   "name": "alpha-cz-1",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Commitizen adapter following the conventional-changelog format.",
   "main": "lib/index.js",
   "scripts": {
