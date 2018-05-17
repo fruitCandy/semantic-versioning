@@ -1,11 +1,12 @@
 {
-  "name": "demo-test-again",
-  "version": "1.0.0",
+  "name": "demo-alpha-3",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0"
   },
+  "private": false,
   "keywords": [],
   "author": "",
   "license": "ISC",
