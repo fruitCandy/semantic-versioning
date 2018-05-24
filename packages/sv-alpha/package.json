@@ -1,6 +1,6 @@
 {
   "name": "sv-alpha",
-  "version": "0.1.0",
+  "version": "0.1.0-prerelease",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,5 +9,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "private": true
+  "private": false
 }
