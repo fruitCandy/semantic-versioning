@@ -2,6 +2,7 @@
     "devDependencies": {
         "@commitlint/cli": "^6.2.0",
         "@commitlint/config-conventional": "^6.1.3",
+        "@semantic-release/commit-analyzer": "^3.0.0",
         "alpha-cz-1": "^0.1.0",
         "babel-cli": "^6.26.0",
         "babel-preset-es2015": "^6.24.1",
@@ -27,7 +28,6 @@
         "commitmsg": "commitlint -e $GIT_PARAMS",
         "test": "scripts/test",
         "semantic-release": "lerna-semantic-release pre && lerna-semantic-release perform",
-
         "pre": "lerna-semantic-release pre",
         "perform": "lerna-semantic-release perform",
         "bumpTest": "lerna publish --skip-npm --skit-git --conventional-commits",
@@ -44,5 +44,33 @@
             "path": "./node_modules/alpha-cz-1"
         }
     },
-    "dependencies": {}
+    "dependencies": {
+        "semantic-release": "^15.5.0"
+    },
+    "release": {
+        "analyzeCommits": {
+            "preset": "angular",
+            "releaseRules": [
+                {
+                    "type": "docs",
+                    "release": "minor"
+                },
+                {
+                    "type": "refactor",
+                    "release": "patch"
+                },
+                {
+                    "type": "style",
+                    "release": "patch"
+                }
+            ],
+            "parserOpts": {
+                "noteKeywords": [
+                    "BREAKING CHANGE",
+                    "BREAKING CHANGES",
+                    "BREAKING"
+                ]
+            }
+        }
+    }
 }
