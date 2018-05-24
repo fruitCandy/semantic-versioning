@@ -1,6 +1,6 @@
 {
   "name": "sv-beta",
-  "version": "0.1.0",
+  "version": "0.5.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,8 +9,34 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "private": true,
+  "private": false,
   "dependencies": {
-    "sv-alpha": "0.1.0"
+    "sv-alpha": "^1.1.0"
+  },
+  "release": {
+    "analyzeCommits": {
+      "preset": "angular",
+      "releaseRules": [
+        {
+          "type": "docs",
+          "release": "minor"
+        },
+        {
+          "type": "refactor",
+          "release": "patch"
+        },
+        {
+          "type": "style",
+          "release": "patch"
+        }
+      ],
+      "parserOpts": {
+        "noteKeywords": [
+          "BREAKING CHANGE",
+          "BREAKING CHANGES",
+          "BREAKING"
+        ]
+      }
+    }
   }
 }
