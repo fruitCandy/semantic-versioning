@@ -44,5 +44,18 @@
             "path": "./node_modules/alpha-cz-1"
         }
     },
-    "dependencies": {}
+    "dependencies": {},
+    "release": {
+        "analyzeCommits": {
+            "preset": "angular",
+            "releaseRules": [
+                {"type": "docs",  "release": "major"},
+                {"type": "refactor", "release": "patch"},
+                {"type": "style", "release": "patch"}
+            ],
+            "parserOpts": {
+                "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES", "BREAKING"]
+            }
+        }
+    }
 }

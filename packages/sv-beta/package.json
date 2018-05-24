@@ -12,5 +12,18 @@
   "private": false,
   "dependencies": {
     "sv-alpha": "0.1.0"
+  },
+  "release": {
+    "analyzeCommits": {
+      "preset": "angular",
+      "releaseRules": [
+        {"type": "docs",  "release": "major"},
+        {"type": "refactor", "release": "patch"},
+        {"type": "style", "release": "patch"}
+      ],
+      "parserOpts": {
+        "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES", "BREAKING"]
+      }
+    }
   }
 }
