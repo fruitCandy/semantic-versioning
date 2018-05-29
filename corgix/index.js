@@ -1,5 +1,5 @@
-var alpha = require('demo-alpha')
-var beta = require('demo-beta')
+var alpha = require('sv-alpha')
+var beta = require('sv-beta')
 console.log(alpha)
 console.log(beta)
 
