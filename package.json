@@ -25,8 +25,6 @@
     "main": "index.js",
     "private": true,
     "scripts": {
-        "prepush": "bash prepush.sh 123",
-
         "test": "scripts/test",
         "semantic-release": "lerna-semantic-release pre && lerna-semantic-release perform",
         "pre": "lerna-semantic-release pre",
