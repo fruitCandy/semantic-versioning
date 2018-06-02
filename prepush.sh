@@ -12,10 +12,9 @@ if [[ "$current_branch" =~ "master" ]]; then
     echo "# Files changed:"
     git diff --name-only $remote_ref $pushed_ref
 
-    files = $(git diff --name-only $remote_ref $pushed_ref)
+    files=$(git diff --name-only $remote_ref $pushed_ref)
 
     echo $files
-    echo
     read -p "You're about to push to production, are you sure? [y|n] " -r < /dev/tty
     echo
     if [[ $REPLY = 'y' ]]; then

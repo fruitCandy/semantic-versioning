@@ -10,8 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "sv-alpha": "~0.1.0",
-    "sv-beta": "~1.0.0"
+    "sv-alpha": "~2.1.0",
+    "sv-beta": "~2.1.0"
   },
   "verson": "13.0.0"
 }

@@ -1,6 +1,6 @@
 {
   "name": "sv-beta",
-  "version": "0.1.0",
+  "version": "2.2.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
   "license": "ISC",
   "private": false,
   "dependencies": {
-    "sv-alpha": "^0.1.0"
+    "sv-alpha": "^2.2.1"
   },
   "release": {
     "analyzeCommits": {
