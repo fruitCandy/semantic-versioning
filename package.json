@@ -29,6 +29,7 @@
         "semantic-release": "lerna-semantic-release pre && lerna-semantic-release perform",
         "pre": "lerna-semantic-release pre",
         "perform": "lerna-semantic-release perform",
+        "post": "lerna-semantic-release post",
         "bumpTest": "lerna publish --skip-npm --skit-git --conventional-commits",
         "commit": "git cz",
         "bootstrap": "lerna bootstrap",
